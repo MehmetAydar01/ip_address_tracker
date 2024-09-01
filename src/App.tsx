@@ -61,7 +61,7 @@ function App() {
         center={position}
         zoom={17}
         scrollWheelZoom={false}
-        className='w-full h-[calc(100vh-290px)]'
+        className='w-full h-[50rem]'
       >
         <ChangeView position={position} zoom={17} />
         <TileLayer
